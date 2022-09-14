@@ -4,7 +4,7 @@
 
 ## Fila de pedidos
 
-Uma empresa de delivery de comida está com dificuldades para organizar a ordem dos pedidos e precisa criar uma rotina que organize seus pedidos em uma fila por odem de prioridade.
+Uma empresa de delivery de comida está com dificuldades para organizar a ordem dos pedidos e precisa criar uma rotina que organize seus pedidos em uma fila por ordem de prioridade.
 
 Sabendo que a fila atualmente está da seguinte ordem:
 
