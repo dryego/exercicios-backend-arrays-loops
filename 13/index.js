@@ -1,3 +1,9 @@
 const disjuntores = [false, false, true, false, false, true, false, false];
 
-disjuntores.le
+for (let busca = 0; busca < disjuntores.length; busca++) {
+    const dijuntor = disjuntores[busca];
+    if (dijuntor != false) {
+        console.log(busca);
+    }
+
+}
