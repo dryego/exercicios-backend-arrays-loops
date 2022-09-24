@@ -1,13 +1,13 @@
-const filaDeDentro = ["Jose", "Maria", "Joao"];
+const filaDeDentro = [];
 const filaDeFora = ["Joana", "Roberta", "Marcos", "Felipe"];
 
-let fila = 0
-while (fila < filaDeDentro.length) {
-    if (fila <= [4]) {
-        filaDeDentro.push(filaDeFora[0]);
-        filaDeFora.unshift();
+while (filaDeDentro.length < 5) {
+    const primeiroDeFora = filaDeFora.shift();
+    if (primeiroDeFora === undefined) {
+        break;
     }
-    fila++
+    filaDeDentro.push(primeiroDeFora);
 }
 
 console.log(filaDeDentro);
+console.log(filaDeFora);
